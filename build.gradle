@@ -40,7 +40,7 @@ minecraft {
 	replace '@VERSION@', project.version
 	// makeObfSourceJar = false
 }
-
+ 
 processResources {
 
     from(sourceSets.main.resources.srcDirs) {
